@@ -1,38 +1,122 @@
+.border {
+  border: 2px solid red;
+  width: 300px;
+  height: 20px;
+}
+
 .App {
-  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.Card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.oneCardStyle {
+  height: 550px;
+  width: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.bigger {
+  height: 500px;
+}
+
+.head {
+  height: 20%;
+  margin-bottom: 2px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.head.blue {
+  background-color: rgb(1, 145, 155);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardBody.blue {
+  background-color: rgb(1, 190, 204);
+}
+
+.head.green {
+  background-color: rgb(4, 132, 81);
+}
+
+.cardBody.green {
+  background-color: rgb(3, 184, 111);
+}
+
+.head.red {
+  background-color: rgb(171, 2, 2);
+}
+
+.cardBody.red {
+  background-color: rgb(234, 3, 3);
+}
+
+.head.black {
+  background-color: rgb(9, 9, 9);
+}
+
+.cardBody.black {
+  background-color: rgb(30, 30, 30);
+}
+
+.cardBody {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid rgb(146, 144, 144);
+
+}
+
+.bodySection1 {
+  height: 20%;
+  border: 1px solid rgb(146, 144, 144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  padding-left: 25px;
+}
+
+--fonts {
+  font-size: 15px;
+}
+
+.tarif {
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+  gap: 5px;
+}
+
+.Card2 {
+  border: 1px solid blue;
+}
+
+.selected {
+  border: 2px solid orange;
+}
+
+.color {
+  background-color: aqua;
 }
